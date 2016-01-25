@@ -38,8 +38,8 @@ int *create_serial_buffer(int length){
     int *p = new int[length];
     return p
 }
-    
-    
+
+
 void setup() {
   pinMode(power, OUTPUT);
   initialize_output_pins(OUTPUT_PINS);
