@@ -11,3 +11,11 @@ debug.txt
 
 # PyCharm Project Files
 .idea
+
+# Visual Studio Project Files
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+*.opendb
+*.vs
