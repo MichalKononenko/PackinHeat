@@ -19,3 +19,6 @@ debug.txt
 *.filters
 *.opendb
 *.vs
+
+# C++ object files
+*.o
