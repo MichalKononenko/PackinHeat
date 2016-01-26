@@ -1,4 +1,4 @@
-#include ".\packet.hpp"
+#include "./packet.hpp"
 #ifndef PACKET_SIZE
 #define PACKET_SIZE 64
 #endif

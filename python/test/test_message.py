@@ -3,7 +3,7 @@ Contains unit tests for :mod:`python_src.message_handler`
 """
 import unittest
 import struct
-from python_src.message_handling import SerialMessage, BadPacketError
+from python.src.message_handling import SerialMessage, BadPacketError
 
 __author__ = 'Michal Kononenko'
 
@@ -94,6 +94,3 @@ class TestFromByteStream(TestWithConstructedMessage):
 
         with self.assertRaises(BadPacketError):
             SerialMessage.from_byte_stream(bad_message)
-
-    def test_bit_flipped_in_message(self):
-        
